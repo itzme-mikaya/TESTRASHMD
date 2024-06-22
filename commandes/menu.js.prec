@@ -31,7 +31,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
     if ((s.MODE).toLocaleLowerCase() != "oui") {
         mode = "privé";
     }
-    var emoji = { "General": "🌐", "Logo": "🎨", "Hentai": "🔥", "Weeb": "🌸", "Recherche": "🔍", "Conversion": "🌟", "Groupe": "♻️", "Autre": "🪖" };
+    var emoji = { "General": "🌐", "Logo": "🎨", "Hentai": "🔥", "Weeb": "🌸", "Recherche": "🔍", "Conversion": "🌟", "Groupe": "♻️", "Autre": "🎭" };
     cm.map(async (com, index) => { if (!coms[com.categorie])
         coms[com.categorie] = []; coms[com.categorie].push(com.nomCom); });
     const temps = moment(moment()).format("HH:MM:SS");
@@ -39,7 +39,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
     const date = moment.tz("africa/nairobi").format("DD/MM/YYYY");
     console.log("date" + date);
     console.log("temps " + temps);
-    let menuMsg = "  ╩═══ * Ƶ𝓞ｋØ𝓊 * ╩═══\n\n";
+    let menuMsg = "  ▁▁▁▁ * ▁▁▁▁ * ▁▁▁▁\n\n";
     /*menuMsg+=`
     
     
@@ -50,9 +50,9 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
     
     
       
-    ╚═════ ▓▓ ࿇ ▓▓ ═════╝*/
+    ╚═════ ◉◉ ࿇ ◉◉ ═════╝*/
     /* menuMsg+=`
-   ╔════ ▓▓ ࿇MASTER-MD࿇ ▓▓ ════╗
+   ╔════ ◉◉ ࿇RASH-MD࿇ ◉◉ ════╗
   
    ||     Préfixe : ${s.prefixe}
    ||      Owner : ${s.OWNER_NAME}
@@ -60,11 +60,11 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
    ||      Date : ${date}
    ||      Hour : ${temps}
    ||      Mém: ${format(os.totalmem()-os.freemem())}/${format(os.totalmem())}                   {Plateforme : ${os.platform()}
-   ||  Developer : Sahan Maduwantha
+   ||  Developer : RASH
    ||
-   ╚════ ▓▓ ࿇ ▓▓ ════╝`;*/
+   ╚════ ◉◉ ࿇ ◉◉ ════╝`;*/
     menuMsg += `
-╔════----*MASTER-MD-----
+╔════----*RASH-MD-----
 ║    Préfixe : ${s.PREFIXE}
 ║    Owner : ${s.OWNER_NAME}    
 ║    Mode : ${mode}
@@ -73,11 +73,11 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 ║    Hour: ${temps}
 ║    Mém : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 ║    Platform : ${os.platform()}
-║    Déveloper : Sahan Maduwantha
+║    Déveloper : RASH
 ╚════--------------- \n\n`;
     for (const cat in coms) {
         if (!emoji[cat]) {
-            emoji[cat] = "💞";
+            emoji[cat] = "🗣️";
         }
         menuMsg += `${emoji[cat]} ══ *${cat} * ══ ${emoji[cat]}\n`;
         for (const cmd of coms[cat]) {
@@ -100,7 +100,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 module.exports.commande =()=>
   {
     var nomCom=["menu","m","fonctions"];
-    var reaction="🐞"
+    var reaction="🫂"
     var categorie="General"
 
 
