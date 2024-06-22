@@ -1,9 +1,9 @@
 {
-  "name":"WISHWA-MD",
-  "description":"An easy and simple WhatsApp bot developed by vishwa kodithuwakku",
+  "name":"RASH-MD",
+  "description":"An easy and simple WhatsApp bot developed by RASH",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/3b5e3a9b55b5ec0df4bf8.jpg",
-  "repository":"https://github.com/Kodiya700/VISHWA-MD/",
+  "repository":"https://github.com/itzme-mikaya/RASH-MD",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -35,7 +35,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"WISHWA-MD",
+      "value":"RASH-MD",
       "required":false
 
     } ,
@@ -65,7 +65,7 @@
     "SESSION_ID":
     {
       "description":"put your session ID , make sure it starts with eyJub2I...",   
-      "value":"",
+      "value":"eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMkh0MUNKdmxKV0RRbCs3NWhhdHNnSnlEYXJlK1h5cDJidk44ZWFFQ2EzTT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiSXFKNjArc2NWbU83T1hlTzVRK2lLL2hiNWh0dTJnUlhmZEpxNFB2aHlVRT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJBTjJZR3d1SzRsODZ3Slc0NVQvRFdCWU45NUdGVXc0TUtycTVyUERHS1dnPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCbEtmVTNPYlVDdUdoQzlMY3hzaUwrN0FxZFVFc2IyaW52RXUzWWtPdWpvPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjhLei9NRzd6Q0hvMGJ2WklkbkZFL0JoRWJYc3Y1VW80SCsycUxKM2YrWHM9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlNDcUZ6T0dOZHBOVjIyZGhLWFRBUlBSMHloNUc0S2xTLzh6MVNzaGtWeUE9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidU5VVHpMbVFycVZkRnVBWUx6eXFtTWUyWkd4dmgxRGcvcmNLQkl3YVlVVT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZUFDMjd0STROM1lPeHk0K3dTaW9paENoYkxlemFTQlQvbE03U0JPaWZDST0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImVTbDY3NUdHc1h3ODdtKzNiQWRQczY2YTU0TlZvcXE0ZXBhNS9aVHFycW1uTjUxcCtRYzVhU0dlckYvdk1tWnFWTzhudzFuRUZ4Q2dFU0NaYWtwM2dRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTIxLCJhZHZTZWNyZXRLZXkiOiJ4c0tUL0VCaDZsL3VldHZWYUtZUXljRUFRNnRvVk82VnJTeEVBd3ZiSUdvPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJBNUhJU3BsUFRLaXQ3WWlfS2IwYjRnIiwicGhvbmVJZCI6ImZjNDZkZjk3LWVmNjMtNGFjNS05MjA2LTY3N2VhZTIwOTYzNCIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJZN1hnOXVmQ0VkdUtFOGhhVWtISlNJYyswZkk9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiL0tuSm1UcE12Yi9ka2FDK2RYUCs4L09wT05vPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6Iko1Q0ZQWEQ1IiwibWUiOnsiaWQiOiI5NDcwNzc2NTIwMDozMEBzLndoYXRzYXBwLm5ldCIsIm5hbWUiOiLwnZqBIPCdmbAg8J2agiDwnZm3IOS5oSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLiJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDTjZVZ2ZBR0VNR1YyYk1HR0EwZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiWXcwczhicXdBQXlqb0hxZE1EdmhJNUNnWjM4UnNYaFlWRDg4Z2VYZURoUT0iLCJhY2NvdW50U2lnbmF0dXJlIjoiVmk1RVhMdWVoVTdWWW9sbmoxVEpKcGlRdFlheDdzb2tGNnE2TmtHUXppQjlIdzl5TENsVlVaZXBLNmxBVGhSOS92a0ZSSC9uWEk5T201NW1yVkNGQVE9PSIsImRldmljZVNpZ25hdHVyZSI6IlowbFd5VytJeTR4RStJaFJiVkdCYkJPcHBxa0NuWkx2TFJ2YlBDdzdZV0pLOEdGQ2Rnb0F6V3YvUUpjZnBabndpOTJWNklKMzF5SkdjUUIvbmxITWhnPT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiOTQ3MDc3NjUyMDA6MzBAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCV01OTFBHNnNBQU1vNkI2blRBNzRTT1FvR2QvRWJGNFdGUS9QSUhsM2c0VSJ9fV0sInBsYXRmb3JtIjoic21iYSIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTcxOTAyODQyOX0=",
       "required": true
 
     },
@@ -74,14 +74,14 @@
     
     "desc": "📌 Dont chchange (වෙනස් කරන්න එපා)",
     "required": false,
-    "value": "VISHWA"
+    "value": "RASH"
   },
     "OWNER_NUMBER":
   {
     
     "desc": "📌 Dont chchange (වෙනස් කරන්න එපා)",
     "required":false,
-    "value": "94720797915"
+    "value": "94707765200"
   },
     "WARN_COUNT":
   {
